@@ -1,6 +1,6 @@
-HAXE React
-================
-This project is aimed to show [HAXE][2] with [ReactJS][1].
+HAXE React Boilerplate
+=======================
+ This can be used as a boilerplate application for [ReactJS][1] using [HAXE][2].
 
  - Compile to JS with [HAXE][2]
  - Transpile to JS from JS with [BABEL][4]
