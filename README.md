@@ -7,13 +7,25 @@ HAXE React Boilerplate
  - Pack everything together with [BABEL][4]
 
 This uses HAXE lib [haxe-react][3]
+
  1. Initialise a [ReactJS][1] application
  2. Set up the [ReactJS][1] application
  3. Setup `.hxml` to compile the [HAXE][2] classes to JS
  4. Setup `package.json` to transpile using [Babel][4]
  5. Run the app
 
+### Note
+ 
+ The key is in the configuration of `.hxml` and `package.json`. :)
+ 
+```
+haxe build.hxml
+npm run 2HaxeJS
+npm run 2BabelJS
+npm run 2PackJS
+```
 
+Done.
 
 
 
