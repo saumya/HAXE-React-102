@@ -1,0 +1,17 @@
+{
+  "name": "hx-react-js",
+  "version": "1.0.0",
+  "description": "A reactJS app with HAXE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "haxe",
+    "js",
+    "react"
+  ],
+  "author": "saumya",
+  "repository": "https://github.com/saumya/HAXE-React-101",
+  "license": "MIT"
+}
