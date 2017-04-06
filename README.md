@@ -14,7 +14,7 @@ This uses HAXE lib [haxe-react][3]
  4. Setup `package.json` to transpile using [Babel][4]
  5. Run the app
 
-### Note
+### Running the project
  
  The key is in the configuration of `.hxml` and `package.json`. :)
  
