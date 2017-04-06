@@ -10,7 +10,7 @@ npm-debug.log
 
 ############   compiler   ############
 # haxe
-src-haxe/bin/
+src-js/haxe/
 
 # Babel
 babel-js/
