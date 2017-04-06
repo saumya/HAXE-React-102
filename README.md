@@ -18,9 +18,8 @@ This uses HAXE lib [haxe-react][3]
  
  The key is in the configuration of `.hxml` and `package.json`. :)
  
-```
-haxe build.hxml
-npm run 2HaxeJS
+``` 
+npm run 2HaxeJS or haxe build.hxml
 npm run 2BabelJS
 npm run 2PackJS
 ```
