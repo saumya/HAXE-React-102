@@ -13,7 +13,7 @@ npm-debug.log
 src-haxe/bin/
 
 # Babel
-src-haxe/bin-babel
+babel-js/
 
 ############   pack   ############
 # webpack

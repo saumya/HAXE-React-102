@@ -6,6 +6,8 @@ This project is aimed to show [HAXE][2] with [ReactJS][1].
  - Pack everything together with [BABEL][4]
 
 This uses HAXE lib [haxe-react][3]
+ 1. Initialise a [ReactJS][1] application
+ 2. Set up the [ReactJS][1] application
 
 
 
