@@ -1,0 +1,22 @@
+#
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+npm-debug.log
+
+############   compiler   ############
+# haxe
+src-haxe/bin/
+
+# Babel
+src-haxe/bin-babel
+
+############   pack   ############
+# webpack
+build/
+buildReact/
+
