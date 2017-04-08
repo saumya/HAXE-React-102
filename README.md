@@ -2,6 +2,8 @@ HAXE React Boilerplate
 =======================
  This can be used as a boilerplate application for [ReactJS][1] using [HAXE][2].
 
+This is how it works.
+
  - Compile to JS with [HAXE][2]
  - Transpile to JS from JS with [BABEL][4]
  - Pack everything together with [BABEL][4]
