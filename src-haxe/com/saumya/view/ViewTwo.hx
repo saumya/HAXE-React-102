@@ -10,6 +10,7 @@ import react.ReactComponent;
 import react.ReactMacro.jsx;
 
 import com.saumya.view.ViewOne;
+import com.saumya.view.ViewList;
 
 @:expose("ViewTwo")
 class ViewTwo extends ReactComponent{
@@ -22,6 +23,7 @@ class ViewTwo extends ReactComponent{
                 <h2>HAXE + React</h2>
                 <h3>ViewTwo</h3>
                 <ViewOne />
+                <ViewList />
             </div>
         ');
   }

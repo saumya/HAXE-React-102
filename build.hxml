@@ -27,6 +27,13 @@ com.saumya.view.ViewOne
 -js src-js/haxe/ViewTwo.js 
 -cp src-haxe 
 com.saumya.view.ViewTwo
+
+--next 
+
+-lib react 
+-js src-js/haxe/ViewList.js 
+-cp src-haxe 
+com.saumya.view.ViewList
 ####################################################################
 ## NEXT is compile these with Babel
 ####################################################################
