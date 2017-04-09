@@ -16,20 +16,20 @@ class ViewList extends ReactComponent{
     super(props);
   }
   override public function render(){
-    var sList:String = this.getListString();
-
+    var aList = this.getListArray();
     return jsx('
       <div style={{margin:"10px", border:"black 2px solid"}}>
-      { (sList) }
+          <h3>ViewList</h3>
+          ${/* aList */}
       </div>
     ');
   }
-  private function getListString():String{
-    var result:String = '';
+  private function getListArray(){
+    var aResult = [];
     for (i in 0 ... 10) {
-      result += ('<div>'+i+'</div>');
+      aResult.push( jsx('<div style={{margin:"10px", border:"#6666FF 1px solid"}}>${/* i */}</div>') );
     }
-    return ('<div style={{margin:"10px", border:"black 2px solid"}}>'+result+'</div>');
+    return aResult;
   }
 }
 
