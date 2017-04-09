@@ -27,7 +27,7 @@ class ViewList extends ReactComponent{
   private function getListArray(){
     var aResult = [];
     for (i in 0 ... 10) {
-      aResult.push( jsx('<div style={{margin:"10px", border:"#6666FF 1px solid"}}>${/* i */}</div>') );
+      aResult.push( jsx('<div key=${i} style={{margin:"10px", border:"#6666FF 1px solid"}}>${/* i */}</div>') );
     }
     return aResult;
   }
